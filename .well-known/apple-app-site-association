@@ -1,0 +1,17 @@
+{
+ "applinks": {
+  "details": [
+   {
+    "appIDs": [
+     "3U9YN763PB.com.kubodot.xenodungeons"
+    ],
+    "components": [
+     {
+      "/": "/k/*",
+      "comment": "鍵コードのリンク"
+     }
+    ]
+   }
+  ]
+ }
+}
