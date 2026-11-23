@@ -55,7 +55,7 @@
 const SERVER = 'https://drjfnkhrndadlansxkxl.supabase.co'
 const KEY = 'sb_publishable_mwnGd4mZtq7NScuHG0oiwA_6TQ62h42'
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c])
-// 神器の名前は出さない（ゲームの石碑と同じく、持っていない神器は伏せる。D-364）。種類だけ見せる
+// 神器の名前は出さず、種類だけ見せる
 const label = (x) => (x && x.heart ? '☆？？？の心' : `☆？${x ? x.shape : ''}`)
 const day = (iso) => { const d = new Date(iso); return `${d.getFullYear()}/${d.getMonth() + 1}/${d.getDate()}` }
 async function get(path) {
